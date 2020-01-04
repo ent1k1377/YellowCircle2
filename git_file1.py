@@ -13,7 +13,7 @@ class MyWidget(QMainWindow, Ui_MainWindow):
         self.pushButton.clicked.connect(self.Button)
         self.x = False
         self.lst1 = []
-
+        # !
     def Button(self):
         self.x = True
         self.lst1.append([random.randint(1, 500), random.randint(30, 500), random.randint(1, 500),
